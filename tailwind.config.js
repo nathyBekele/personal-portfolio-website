@@ -28,6 +28,9 @@ module.exports = {
         screens: {
           "4k": "1980px",
         },
+        fontFamily: { 
+          'roboto': ['Roboto', 'sans-serif'],
+        },
       },
     },
   },
