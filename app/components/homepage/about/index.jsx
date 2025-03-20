@@ -1,4 +1,5 @@
 // @flow strict
+"use client";
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
@@ -29,13 +30,13 @@ function AboutSection() {
         <div className="flex justify-center order-1 lg:order-1">
           <Image
             src={personalData.profile}
-            width={390}
-            height={270}
+            width={420}
+            height={280}
             alt="Natnael Bekele"
             className="rounded-lg transition-all duration-1000 cursor-pointer"
           />
         </div>
-        <div className="order-2 lg:order-2">
+        <div className="order-2 lg:order-2 p-6 lg:p-0 justify-between">
           {personalData.description.map((paragraph, index) => (
             <p
               key={index}

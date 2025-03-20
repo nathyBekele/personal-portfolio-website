@@ -7,6 +7,7 @@ export const projectsData = [
         role: 'Backend Developer',
         code: '',
         demo: '',
+        link: 'https://afrochat.app/',
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
+        link: 'https://adot.life/',
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
+        link: 'https://rateeat.app/',
     },
     {
         id: 4,
@@ -34,6 +37,7 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
+        link: '',
     },
     {
         id: 5,
@@ -43,6 +47,7 @@ export const projectsData = [
         code: '',
         demo: '',
         role: 'Full Stack Developer',
+        link: 'https://huggingface.co/NathyB/Hate-Speech-Detection-in-Amharic-Language-mBERT/tree/main',
     }
 ];
 

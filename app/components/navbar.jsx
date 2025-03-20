@@ -9,7 +9,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
+            className=" text-[#16f2b3] text-2xl font-light">
             Natnael Bekele
           </Link>
         </div>
