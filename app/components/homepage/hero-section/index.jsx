@@ -24,13 +24,13 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center py-2 pb-20 md:pb-10 lg:pt-10">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <span className="animate-wave text-3xl">👋</span>
-              <h4 className="text-2xl font-normal text-white">
+              <span className="text-3xl animate-wave">👋</span>
+              <h4 className="text-[25px] lg:text-2xl font-normal text-white">
                 Hello! I am <span className="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent font-bold">{personalData.name}</span>
               </h4>
             </div>
             
-            <div className="text-xl font-light text-gray-300 leading-relaxed">
+            <div className="px-3 lg:px-0 text-xl font-light text-gray-300 leading-relaxed">
               <div className="flex items-center gap-2">
                 <span>I am a</span>
                 <span className="text-[#16f2b3] font-medium animate-pulse">{personalData.designation}</span>
@@ -38,7 +38,7 @@ function HeroSection() {
               <span>with 4+ years of professional experience.</span>
             </div>
 
-            <p className="text-xl font-light text-gray-300 leading-relaxed mt-4 max-w-2xl">
+            <p className="px-3 lg:px-0 text-xl font-light text-gray-300 leading-relaxed mt-4 max-w-2xl">
               Welcome to my digital playground, where <span className="text-pink-500">bugs go to cry</span> and <span className="text-violet-500">features come to thrive!</span>
             </p>
           </div>
@@ -76,11 +76,11 @@ function HeroSection() {
             </Link>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-6">
             <Link href="#contact" className="group relative">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-violet-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-200"></div>
               <button className="relative px-6 py-3 bg-[#0d1224] rounded-full text-white font-medium tracking-wider flex items-center gap-2 group-hover:gap-3 transition-all duration-200">
-                <span>Contact me</span>
+                <span className="text-[13px] lg:text-[17px]">Contact me</span>
                 <RiContactsFill size={16} className="group-hover:animate-bounce" />
               </button>
             </Link>
@@ -88,7 +88,7 @@ function HeroSection() {
             <Link href={personalData.resume} target="_blank" className="group relative">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-violet-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-200"></div>
               <button className="relative px-6 py-3 bg-[#0d1224] rounded-full text-white font-medium tracking-wider flex items-center gap-2 group-hover:gap-3 transition-all duration-200">
-                <span>Get Resume</span>
+                <span className="text-[13px] lg:text-[17px]">Get Resume</span>
                 <MdDownload size={16} className="group-hover:animate-bounce" />
               </button>
             </Link>
